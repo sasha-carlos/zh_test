@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, NtechLab
+# This file is distributed under the same license as the FindFace Security
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FindFace Security 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-23 14:07+0700\n"
+"PO-Revision-Date: 2018-09-24 13:44+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.1.1\n"
+"Language: zh\n"
+
+#: ../source/index.rst:3
+msgid "Welcome to FindFace Security’s documentation!"
+msgstr "欢迎访问FindFace安全文档!"
+
+#: ../source/index.rst:6
+msgid "About FindFace Security"
+msgstr "关于Find Face安全"
+
+#: ../source/index.rst:9
+msgid ""
+"FindFace Security is a video-based biometric identification system that "
+"automates Security and Hospitality Operations Management."
+msgstr ""
+"FindFace安全是一种基于视频的生物特征识别系统，可以自动进行安全和酒店运营"
+"管理."
+
+#: ../source/index.rst:11
+msgid ""
+"FindFace Security detects and recognizes faces of the unwanted visitors "
+"and VIP guests in live video, and notifies security and hospitality "
+"managers about their arrival."
+msgstr ""
+"FindFace Security在视频中检测和识别不受欢迎的访客和VIP客人的面孔，并在他"
+"们即将到来之前，提前通知安保和酒店经理！"
+
+#: ../source/index.rst:13
+msgid ""
+"Early recognition of the arrival of unwanted visitors and VIP guests "
+"allows for solving the following problems:"
+msgstr "提前确认不需要的访客和贵宾的到来，可以解决以下问题:"
+
+#: ../source/index.rst:15
+msgid "Operational losses due to visitors fraudulent activity"
+msgstr "因游客欺诈活动造成经营损失"
+
+#: ../source/index.rst:16
+msgid "Reputational losses and conflicts"
+msgstr "名誉损失和冲突"
+
+#: ../source/index.rst:17
+msgid "Better catering to the needs of VIP guests."
+msgstr "更好地满足VIP客人的需求。"
+
+#: ../source/index.rst:19
+msgid ""
+"This guide is intended for FindFace Security administrators, security "
+"and hospitality managers, as well as for FindFace Security maintenance "
+"engineers."
+msgstr ""
+"本指南适用于FindFace安全管理员、安全和酒店管理经理以及FindFace安全维护工"
+"程师。"
+
+#: ../source/index.rst:24
+msgid ""
+"You can find this guide at http://docs.findface.pro/projects/ffsecurity/"
+"en/latest/ and at ``http://<ffsecurity_ip>/doc/`` after installation."
+msgstr ""
+"你可以在 http://docs.findface.pro/projects/ffsecurity/en/latest/ 找到这"
+"个指南然后安装好."
+
+#: ../source/index.rst:28
+msgid "Contents"
+msgstr "内容"

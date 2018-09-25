@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, NtechLab
+# This file is distributed under the same license as the FindFace Security
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FindFace Security 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-23 14:07+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../source/requirements.rst:5
+msgid "System Requirements"
+msgstr ""
+
+#: ../source/requirements.rst:7
+msgid ""
+"FindFace Security can be deployed on a single host (standalone) or in a "
+"cluster environment. To calculate the host(s) characteristics, use the "
+"following requirements:"
+msgstr ""
+
+#: ../source/requirements.rst:11
+msgid "Requirement"
+msgstr ""
+
+#: ../source/requirements.rst:11
+msgid "Description"
+msgstr ""
+
+#: ../source/requirements.rst:13
+msgid "CPU"
+msgstr ""
+
+#: ../source/requirements.rst:13
+msgid ""
+"Intel Xeon E5 with AVX support or similar CPU. The characteristics depend"
+" on the number of cameras in use. A single camera 1080p@25FPS requires 2 "
+"cores HT >2 GHz for video processing and 2 cores HT >2 GHz for face "
+"recognition."
+msgstr ""
+
+#: ../source/requirements.rst:18
+msgid "RAM"
+msgstr ""
+
+#: ../source/requirements.rst:18
+msgid ""
+"Depends on the number of cameras in use. A single camera 1080p@25FPS "
+"requires 4 GB for video processing and 4 GB for face recognition."
+msgstr ""
+
+#: ../source/requirements.rst:21
+msgid "HDD"
+msgstr ""
+
+#: ../source/requirements.rst:21
+msgid ""
+"The own needs of the operating system and FindFace Security require 10 "
+"GB. The total volume is subject to the required depth of the event "
+"archive in the database and in the log, at the rate of 1.5 Mb per 1 "
+"event."
+msgstr ""
+
+#: ../source/requirements.rst:25
+msgid "Operating system"
+msgstr ""
+
+#: ../source/requirements.rst:25
+msgid "Ubuntu 16.04 LTS (x64)"
+msgstr ""
+
+#: ../source/requirements.rst:29
+msgid ""
+"The minimum configuration to process a video stream 1x720p (1280×720) 25 "
+"FPS is 6th generation INTEL Core i5 CPU with 4 physical cores 2,8 GHz, "
+"and 6 GB RAM."
+msgstr ""
+

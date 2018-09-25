@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, NtechLab
+# This file is distributed under the same license as the FindFace Security
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FindFace Security 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-23 14:07+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../source/logs.rst:2
+msgid "Audit Logs"
+msgstr ""
+
+#: ../source/logs.rst:4
+msgid ""
+"Audit logs contain detailed information about all the events occurred in "
+"the system and are great for troubleshooting."
+msgstr ""
+
+#: ../source/logs.rst:7
+msgid ""
+"In order to enable saving audit logs to your hard drive, uncomment and "
+"edit the ``Storage`` parameter in the ``etc/systemd/journald.conf`` file:"
+msgstr ""
+
+#: ../source/logs.rst:16
+msgid ""
+"If necessary, uncomment and edit the ``SystemMaxUse`` parameter as well. "
+"This parameter determines the maximum volume of log files on your hard "
+"drive (10% by default)."
+msgstr ""
+
+#: ../source/logs.rst:23
+msgid "To view audit logs, execute:"
+msgstr ""
+
+#: ../source/logs.rst:30
+msgid ""
+"When interpreting audit logs, first of all pay attention on the following"
+" parameters:"
+msgstr ""
+
+#: ../source/logs.rst:32
+msgid "``REQUEST_USER``: user who made the changes;"
+msgstr ""
+
+#: ../source/logs.rst:33
+msgid "``REQUEST_PATH``: URL of the request;"
+msgstr ""
+
+#: ../source/logs.rst:34
+msgid "``REQUEST_DATA``: detailed information of the request."
+msgstr ""
+
+#: ../source/logs.rst:36
+msgid "In the log below, the ``admin`` user creates a dossier ``id=1879``."
+msgstr ""
+
+#: ../source/logs.rst:69
+msgid ""
+"In the next log, the list of faces is requested for the dossier "
+"``id=1879``."
+msgstr ""
+

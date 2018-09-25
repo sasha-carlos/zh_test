@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, NtechLab
+# This file is distributed under the same license as the FindFace Security
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FindFace Security 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-23 14:07+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../source/user_management.rst:5
+msgid "User Management"
+msgstr ""
+
+#: ../source/user_management.rst:7
+msgid "To manage FindFace Security users, navigate to the Users tab."
+msgstr ""
+
+#: ../source/user_management.rst:10
+msgid "In this chapter:"
+msgstr ""
+
+#: ../source/user_management.rst:16
+msgid "Roles"
+msgstr ""
+
+#: ../source/user_management.rst:18
+msgid "FindFace Security provides the following pre-defined roles:"
+msgstr ""
+
+#: ../source/user_management.rst:20
+msgid ""
+"Administrator has rights to :ref:`manage cameras <cameras>`, events, "
+"FindFace Security users, and the :ref:`visitor database <guests>`."
+msgstr ""
+
+#: ../source/user_management.rst:23
+msgid ""
+"Whatever the role, the first administrator :ref:`created on the console "
+"<basic-deployment>` (Super Administrator) cannot be deprived of its "
+"rights."
+msgstr ""
+
+#: ../source/user_management.rst:25
+msgid ""
+"Operator can :ref:`create dossiers manually <create-dossier-operator>`, "
+"receive and acknowledge events, and search for faces in the event list "
+"and social networks. The other data is available read-only. The "
+":ref:`batch dossier creation <batch-upload>` is unavailable."
+msgstr ""
+
+#: ../source/user_management.rst:26
+msgid ""
+"User has a right to receive and acknowledge events, and to search for "
+"faces in the event list and social networks. The other data is available "
+"read-only."
+msgstr ""
+
+#: ../source/user_management.rst:30
+msgid "Create User"
+msgstr ""
+
+#: ../source/user_management.rst:32
+msgid "To create a user, do the following:"
+msgstr ""
+
+#: ../source/user_management.rst:34 ../source/user_management.rst:55
+msgid "Click :guilabel:`Create`."
+msgstr ""
+
+#: ../source/user_management.rst:36
+msgid "|create_user_en|"
+msgstr ""
+
+#: ../source/user_management.rst:43
+msgid ""
+"Specify such user data as name, login and password. From the "
+":guilabel:`Role` drop-down menu, select the user role. If necessary, add "
+"a comment."
+msgstr ""
+
+#: ../source/user_management.rst:45
+msgid "|user_en|"
+msgstr ""
+
+#: ../source/user_management.rst:54
+msgid "Check :guilabel:`Active`."
+msgstr ""
+
+#: ../source/user_management.rst:59
+msgid "Deactivate or Delete User"
+msgstr ""
+
+#: ../source/user_management.rst:61
+msgid ""
+"In order to deactivate or delete a user from FindFace Security, do the "
+"following:"
+msgstr ""
+
+#: ../source/user_management.rst:63
+msgid "Click on the user login in the list."
+msgstr ""
+
+#: ../source/user_management.rst:64
+msgid ""
+"To deactivate the user, uncheck :guilabel:`Active`. Click "
+":guilabel:`Update`."
+msgstr ""
+
+#: ../source/user_management.rst:65
+msgid "To delete the user, click :guilabel:`Delete`."
+msgstr ""
+

@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, NtechLab
+# This file is distributed under the same license as the FindFace Security
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FindFace Security 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-23 14:07+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../source/guests_operator.rst:5
+msgid "Visitor Dossier"
+msgstr ""
+
+#: ../source/guests_operator.rst:7
+msgid ""
+"The visitor database contains dossiers on the unwanted visitors and VIP "
+"guests. A dossier has to contain one or several photos of a visitor and "
+"belong to a certain classification list (watch list)."
+msgstr ""
+
+#: ../source/guests_operator.rst:10
+msgid "In this chapter:"
+msgstr ""
+
+#: ../source/guests_operator.rst:17
+msgid "Create Dossier"
+msgstr ""
+
+#: ../source/guests_operator.rst:19
+msgid "To create a dossier manually, do the following:"
+msgstr ""
+
+#: ../source/guests_operator.rst:21
+msgid "In the web interface, go to the :guilabel:`Dossier` tab."
+msgstr ""
+
+#: ../source/guests_operator.rst:23
+msgid "|create_dossier_en|"
+msgstr ""
+
+#: ../source/guests_operator.rst:32
+msgid "Click :guilabel:`Create`."
+msgstr ""
+
+#: ../source/guests_operator.rst:33
+msgid ""
+"Attach a photo and specify the name of a visitor. If necessary, add a "
+"comment."
+msgstr ""
+
+#: ../source/guests_operator.rst:36
+msgid "A photo must meet the following requirements:"
+msgstr ""
+
+#: ../source/guests_operator.rst:38
+msgid "It must contain only one face."
+msgstr ""
+
+#: ../source/guests_operator.rst:39
+msgid "A face must be of high quality, i.e. close to a frontal position."
+msgstr ""
+
+#: ../source/guests_operator.rst:41
+msgid ""
+"Photos that do not meet the requirements will be rejected with a detailed"
+" error description."
+msgstr ""
+
+#: ../source/guests_operator.rst:43
+msgid "|dossier_en|"
+msgstr ""
+
+#: ../source/guests_operator.rst:52
+msgid ""
+"From the :guilabel:`Watch lists` drop-down menu, select a classification "
+"list for the dossier."
+msgstr ""
+
+#: ../source/guests_operator.rst:53
+msgid "Click :guilabel:`Save`."
+msgstr ""
+
+#: ../source/guests_operator.rst:56
+msgid "View Dossier"
+msgstr ""
+
+#: ../source/guests_operator.rst:58
+msgid ""
+"You can find all dossiers created in FindFace Security on the "
+":guilabel:`Dossiers` tab. Use the :guilabel:`Watch lists` filter to "
+"filter dossiers by list."
+msgstr ""
+

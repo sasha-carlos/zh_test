@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, NtechLab
+# This file is distributed under the same license as the FindFace Security
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FindFace Security 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-23 14:07+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../source/ffsec.rst:5
+msgid "Deploy FindFace Security"
+msgstr ""
+
+#: ../source/ffsec.rst:8
+msgid ""
+"To make your user experience great, we offer 2 types of deployment. "
+"Choose the most convenient one, given your architecture outline:"
+msgstr ""
+
+#: ../source/ffsec.rst:10
+msgid "The cluster deployment can only be done step-by-step."
+msgstr ""
+
+#: ../source/ffsec.rst:11
+msgid ""
+"The standalone deployment can be done step-by-step and from a developer-"
+"friendly console installer."
+msgstr ""
+
+#: ../source/ffsec.rst:14
+msgid "In this chapter:"
+msgstr ""
+

@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, NtechLab
+# This file is distributed under the same license as the FindFace Security
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FindFace Security 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-23 14:07+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: ../source/architecture.rst:5
+msgid "Architecture"
+msgstr ""
+
+#: ../source/architecture.rst:7
+msgid ""
+"FindFace Security can be deployed on a single host (standalone) or in a "
+"cluster environment."
+msgstr ""
+
+#: ../source/architecture.rst:10
+msgid "See :ref:`requirements`."
+msgstr ""
+
+#: ../source/architecture.rst:12
+msgid "FindFace Security is delivered in the following distributable packages:"
+msgstr ""
+
+#: ../source/architecture.rst:14
+msgid ""
+"A package with the FindFace Security components :program:`<findface-"
+"security-repo>.deb`."
+msgstr ""
+
+#: ../source/architecture.rst:15
+msgid ""
+"Packages with the biometric neural network models :program:`<findface-"
+"data>.deb`."
+msgstr ""
+
+#: ../source/architecture.rst:17
+msgid ""
+"The FindFace Security functioning is provided by interaction of the "
+"following components:"
+msgstr ""
+
+#: ../source/architecture.rst:1
+msgid "Component"
+msgstr ""
+
+#: ../source/architecture.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid "PostgreSQL"
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid ""
+"A database which stores detailed and categorized dossiers of the unwanted"
+" visitors and VIP guests, their biometric data, and face recognition "
+"events. It also stores data for internal use such as user accounts and "
+"camera settings. To be installed from the Ubuntu repository (along with "
+"Redis)."
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid "``ffsecurity``"
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid ""
+"A service which interfaces with all the components to provide the system "
+"functioning. Includes ``findface-security-proto`` (provides HTTP and web "
+"socket) and ``findface-security-worker`` (provides interaction between "
+"the other system components). First, ``findface-security`` gets a "
+"normalized image, full frame, and meta data of a detected face from "
+"``fkvideo_detector``. It then redirects the normalized image to the "
+"``extraction-api`` service to extract biometric data. The ``findface-"
+"postgres-facen`` extension uses the face biometric data to find a set of "
+"most similar faces in the dossiers. The face recognition event along with"
+" the search result is then saved into the PostgreSQL database. You can "
+"configure your system to save and display an event only if the similarity"
+" between a detected face and some face in the dossiers exceeds a pre-"
+"defined threshold, i. e. the faces match (the ``IGNORE_UNMATCHED`` option"
+" at ``/etc/ffsecurity/config.py``, see :ref:`basic-deployment`). The "
+"``ffsecurity`` service also provides a search engine that searches the "
+"event database for a given face."
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid "``fkvideo_detector``"
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid ""
+"The video face detector recognizes a face in video and posts its "
+"normalized image, full frame and meta data (such as the camera ID and "
+"detection time) to the ``ffsecurity`` service."
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid "``extraction-api``"
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid ""
+"A service which extracts face biometric data (feature vector). Requires "
+"the packages with the neural network models :program:`<findface-"
+"data>.deb`."
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid "``findface-postgres-facen``"
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid ""
+"A :program:`PostgreSQL` extension which calculates similarity between a "
+"newly detected face and faces in the dossiers, by comparing their "
+"biometric data."
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid "Веб-интерфейс"
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid ""
+"Use the web interface (``ffsecurity-ui``) to work with face recognition "
+"events, search the event database and social networks for faces, and to "
+"manage cameras, users, dossiers, and watch lists."
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid "``NTLS``"
+msgstr ""
+
+#: ../source/_tables/components.csv:1
+msgid ""
+"A local license server which interfaces with the NtechLab Global License "
+"Server or a USB dongle to verify a license."
+msgstr ""
+
+#: ../source/architecture.rst:28
+msgid "Use a :ref:`web interface <wui>` to work with FindFace Security."
+msgstr ""
+
+#: ../source/architecture.rst:31
+msgid ""
+"To purge old events from the database, use the ``event-cleaner`` "
+":ref:`utility <event-cleaner>`."
+msgstr ""
+
